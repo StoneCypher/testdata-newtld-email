@@ -1,0 +1,30 @@
+{
+  "author": "John Haugeland",
+  "name": "testdata-newtld-email",
+  "description": "A list of email addresses using old and new TLDs for use in automated testing",
+  "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/StoneCypher/testdata-newtld-email.git"
+  },
+  "keywords": [
+    "test",
+    "testing",
+    "validate",
+    "validation",
+    "email",
+    "mail",
+    "address",
+    "check"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "vows": "*"
+  },
+  "main": "testdata-newtld-email.js",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "vows test/* --spec"
+  }
+}
